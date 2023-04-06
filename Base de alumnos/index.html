@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+	<title>Prototipo de Alumno</title>
+</head>
+<body>
+		<h1>Prototipo de Alumno</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+    
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+    
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad">
+    
+            <label for="materias">Materias inscritas:</label>
+            <input type="text" id="materias" name="materias">
+    
+            <label for="calificaciones">Calificaciones:</label>
+            <input type="text" id="calificaciones" name="calificaciones">
+    
+            <button type="button" onclick="agregarAlumno()">Agregar Alumno</button>
+        </form>
+		<table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Edad</th>
+                    <th>Materias inscritas</th>
+                    <th>Calificaciones</th>
+                </tr>
+            </thead>
+        </table>
+</body>
+<script src="main.js"></script>
+</html>
